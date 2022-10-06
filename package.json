@@ -1,0 +1,21 @@
+{
+  "name": "li-love-robot",
+  "version": "1.0.0",
+  "description": "基于微信公众号的恋爱机器人",
+  "main": "index.js",
+  "scripts": {
+    "hzb": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hzbnb/Li-love-robot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hzbnb/Li-love-robot/issues"
+  },
+  "homepage": "https://github.com/hzbnb/Li-love-robot#readme"
+}
