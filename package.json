@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "hzb": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node index.js && exit 1"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/hzbnb/Li-love-robot/issues"
   },
-  "homepage": "https://github.com/hzbnb/Li-love-robot#readme"
+  "homepage": "https://github.com/hzbnb/Li-love-robot#readme",
+  "dependencies": {
+    "axios": "^1.1.2"
+  }
 }
