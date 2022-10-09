@@ -39,4 +39,12 @@ function send() {
     });
 }
 
-get_token();
+function git_ip() {
+  axios.get(`http://mip.chinaz.com/`).then((res) => {
+    console.log(res.data);
+  });
+}
+
+// get_token();
+
+git_ip();
