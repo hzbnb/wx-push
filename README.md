@@ -1,4 +1,7 @@
+## 部署文档
+
 config->index.js 是配置文件
+
 ```javascript
 appid: "wx71941f6106ae1072",
   appsecret: "b4b2ad8a8d4a94e403831886ac10c646",
