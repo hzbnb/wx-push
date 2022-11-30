@@ -1,5 +1,5 @@
 config->index.js 是配置文件
-```json
+```js
 appid: "wx71941f6106ae1072",
 appsecret: "b4b2ad8a8d4a94e403831886ac10c646",
 template_id: "TUgz8f5zkdTYWmwyTC_akIPhbEUyzMiNc0O2JicK8Rk",
