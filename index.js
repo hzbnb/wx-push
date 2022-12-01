@@ -7,9 +7,12 @@ const sendData = {
 };
 
 async function run() {
-  let token = await get_token();
-  await update();
-  send(token);
+  const res = await axios.get("https://api.mcloc.cn/love/?type=string");
+  console.log(res.data);
+
+  // let token = await get_token();
+  // await update();
+  // send(token);
 }
 
 run();
