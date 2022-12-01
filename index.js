@@ -7,15 +7,9 @@ const sendData = {
 };
 
 async function run() {
-  const res = await axios({
-    method: "get",
-    url: "https://api.uomg.com/api/rand.qinghua",
-  });
-  console.log(res.data.content);
-
-  // let token = await get_token();
-  // await update();
-  // send(token);
+  let token = await get_token();
+  await update();
+  send(token);
 }
 
 run();
@@ -41,8 +35,13 @@ async function update() {
   } = await axios.get(
     `https://restapi.amap.com/v3/weather/weatherInfo?city=${city}&key=${key}&extensions=all`
   );
-  // const res = await axios.get("https://api.mcloc.cn/love/?type=string");
-  // console.log("res", res);
+  const {
+    data: { content },
+  } = await axios({
+    method: "get",
+    url: "https://api.uomg.com/api/rand.qinghua",
+  });
+
   let lovedate = parseInt((new Date().getTime() - new Date(first_date).getTime()) / 1000 / 60 / 60 / 24);
   sendData.data = {
     nowDate: {
@@ -70,7 +69,7 @@ async function update() {
       color: "#E75875",
     },
     text: {
-      value: "res.data",
+      value: content,
       color: "#E07A70",
     },
   };
