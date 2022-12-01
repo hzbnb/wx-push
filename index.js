@@ -9,9 +9,9 @@ const sendData = {
 async function run() {
   const res = await axios({
     method: "get",
-    url: "https://api.mcloc.cn/love/",
+    url: "https://api.uomg.com/api/rand.qinghua",
   });
-  console.log(res.data);
+  console.log(res.data.content);
 
   // let token = await get_token();
   // await update();
