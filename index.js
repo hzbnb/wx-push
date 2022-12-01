@@ -60,11 +60,11 @@ async function update() {
       color: "#6E64BB",
     },
     loveDate: {
-      value: res.data,
+      value: lovedate,
       color: "#E75875",
     },
     text: {
-      value: data,
+      value: res.data,
       color: "#E07A70",
     },
   };
