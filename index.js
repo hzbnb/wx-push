@@ -35,8 +35,8 @@ async function update() {
   } = await axios.get(
     `https://restapi.amap.com/v3/weather/weatherInfo?city=${city}&key=${key}&extensions=all`
   );
-  const res = await axios.get("https://api.mcloc.cn/love/?type=string");
-  console.log("res", res);
+  // const res = await axios.get("https://api.mcloc.cn/love/?type=string");
+  // console.log("res", res);
   let lovedate = parseInt((new Date().getTime() - new Date(first_date).getTime()) / 1000 / 60 / 60 / 24);
   sendData.data = {
     nowDate: {
@@ -64,7 +64,7 @@ async function update() {
       color: "#E75875",
     },
     text: {
-      value: res.data,
+      value: "res.data",
       color: "#E07A70",
     },
   };
