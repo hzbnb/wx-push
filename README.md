@@ -43,4 +43,5 @@ appid: "wx71941f6106ae1072",
 ```
 <a name="guSmb"></a>
 #### 我的微信
-![[_cgi-bin_mmwebwx-bin_webwxgetmsgimg__&MsgID=8416387224450029090&skey=@crypt_39357739_d6942d700d4537fd8a2a8d8f9a7c96b0&mmweb_appid=wx_webfilehelper.jpg](https://img.hzb.gg/file/42323926a5fed8c217760.jpg)]([https://img.hzb.gg/file/42323926a5fed8c217760.jpg)
+搜索我的微信号：
+huo-nb
